@@ -1,3 +1,16 @@
 # Arquivos locais que não devem ser versionados
 /Captura_de_tela_20261013_100300.png
 /sshs keys git p1.txt
+
+# Laravel
+/app/.env
+/app/.env.*
+!/app/.env.example
+/app/vendor/
+/app/node_modules/
+/app/storage/*.key
+
+# IDE e sistema
+.idea/
+.vscode/
+.DS_Store
